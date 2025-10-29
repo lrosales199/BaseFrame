@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaseFrame</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <section class="logo">
+            <img src="imgs/logo.png" alt="Logo">
+        </section>
+
+        <nav class="navbar">
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <section class="nav-links" id="nav-links">
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#app">Visus IA</a>
+                <a href="#group">Equipe</a>
+                <a href="#contato">Fale Conosco</a>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main">
+            <section class="main-conteudo">
+                <p class="title-1"><span class="bold">BaseFrame</span><br>
+                    Excelência em Soluções de Software</p>
+                <button type="button" class="btn-primary" onclick="window.location.href='#contato'">Fale Conosco</button>
+            </section>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <section class="conteudo">
+                <p class="title-2">Sobre nós</p>
+                <p class="conteudo-1">A Base Frame é uma empresa de tecnologia voltada para o futuro dos negócios. Criamos softwares que simplificam processos, otimizam a gestão e impulsionam o desempenho de empresas de diferentes setores.</p>
+                <p class="conteudo-1">Acreditamos que inovação é a base de todo progresso — por isso, desenvolvemos soluções digitais que conectam eficiência e propósito.</p>
+            </section>
+            <img class="img-conteudo1" src="imgs/img_section.png">
+        </section>
+
+        <section class="app" id="app">
+            <div class="container-app">
+                <div class="conteudo-2">
+                    <div class="conteudo-2-1">
+                        <p class="title-3">VISUS IA</p>
+                        <div class="conteudo-2-1-1">
+                            <p>VISUS IA — Plataforma de inteligência artificial para apoio ao diagnóstico
+                                em exames de imagem.</p>
+                        </div>
+                        <button type="button" class="btn-second">Saiba mais</button>
+                    </div>
+                    <div class="imagens-app" id="imagens-app" aria-label="Imagens do aplicativo">
+                        <img src="imgs/app_login.png" alt="App 1" class="img-conteudo img-front">
+                        <img src="imgs/app_login2.png" alt="App 2" class="img-conteudo img-back">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="group" id="group">
+            <p class="title-4">Nossa equipe</p>
+            <section class="group_photo">
+                <section class="conteudo-3">
+                    <img src="imgs/Giovanna.png" class="perfil">
+                    <p class="name">Giovanna Morais</p>
+                    <p class="funcion">Desenvolvedor</p>
+                    <section class="icons">
+                        <img src="imgs/instagram.png">
+                        <img src="imgs/twitter.png">
+                        <img src="imgs/dribbble.png">
+                        <img src="imgs/github.png">
+                    </section>
+                </section>
+                <section class="conteudo-3">
+                    <img src="imgs/Kaua.png" class="perfil">
+                    <p class="name">Kauã Roela</p>
+                    <p class="funcion">Desenvolvedor</p>
+                    <section class="icons">
+                        <img src="imgs/instagram.png">
+                        <img src="imgs/twitter.png">
+                        <img src="imgs/dribbble.png">
+                        <img src="imgs/github.png">
+                    </section>
+                </section>
+                <section class="conteudo-3">
+                    <img src="imgs/Leonardo.png" class="perfil">
+                    <p class="name">Leonardo Sales</p>
+                    <p class="funcion">Desenvolvedor</p>
+                    <section class="icons">
+                        <img src="imgs/instagram.png">
+                        <img src="imgs/twitter.png">
+                        <img src="imgs/dribbble.png">
+                        <img src="imgs/github.png">
+                    </section>
+                </section>
+                <section class="conteudo-3">
+                    <img src="imgs/Marcelo.png" class="perfil">
+                    <p class="name">Marcelo Moreira</p>
+                    <p class="funcion">Desenvolvedor</p>
+                    <section class="icons">
+                        <img src="imgs/instagram.png">
+                        <img src="imgs/twitter.png">
+                        <img src="imgs/dribbble.png">
+                        <img src="imgs/github.png">
+                    </section>
+                </section>
+                <section class="conteudo-3">
+                    <img src="imgs/Thais.png" class="perfil">
+                    <p class="name">Thais Nascimento</p>
+                    <p class="funcion">Desenvolvedor</p>
+                    <section class="icons">
+                        <img src="imgs/instagram.png">
+                        <img src="imgs/twitter.png">
+                        <img src="imgs/dribbble.png">
+                        <img src="imgs/github.png">
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section class="main_contato" id="contato">
+            <section class="contato">
+                <section class="form">
+                    <p class="title-5">Contate-Nos</p>
+                    <p class="conteudo-4">
+                        Fale com nossa equipe e descubra como podemos ajudar o seu negócio.
+                    </p>
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+
+                <section class="img-contato">
+                    <img src="imgs/Contatos.png" alt="Contato com a equipe">
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <section class="footer-column">
+                <h3>MAPA DO SITE</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#app">Visus AI</a></li>
+                    <li><a href="#group">Equipe</a></li>
+                    <li><a href="#contato">Fale conosco</a></li>
+                </ul>
+            </section>
+            <section class="footer-column">
+                <h3>CONTATO</h3>
+                <ul>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">Telefone</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+            </section>
+            <section class="footer-column social">
+                <h3>SIGA-NOS</h3>
+                <section class="social-icons">
+                    <img src="imgs/Twitter_footer.png" class="icon_footer">
+                    <img src="imgs/Linkedin_footer.png">
+                    <img src="imgs/Instagram_footer.png">
+                    <img src="imgs/facebook_footer.png">
+                </section>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <p>© 2025 BaseFrame. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
